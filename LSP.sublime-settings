@@ -1,0 +1,33 @@
+{
+	/*"log_debug":true,
+	"log_server": true,
+	"log_stderr": true,
+	"log_payloads": true,*/
+	"clients": {
+		"phpls": {
+			"command":
+			[
+				"php",
+				"~/.config/composer/vendor/felixfbecker/language-server/bin/php-language-server.php",
+				"--memory-limit=2048M",
+				"--tcp-server=localhost:5555"
+			],
+			"languageId": "php",
+			"scopes": ["source.php", "embedding.php"],
+			"syntaxes":["Packages/PHP/PHP.sublime-syntax"],
+			"enabled": true,
+			"tcp_port": 5555
+		},
+		"psalm": {
+			"command":
+			[
+				"php",
+				"~/.config/composer/vendor/bin/psalm-language-server"
+			],
+			"languageId": "php",
+			"scopes":["source.php", "embedding.php"],
+			"syntaxes":["Packages/PHP/PHP.sublime-syntax"],
+			"enabled": true
+		}
+	}
+}
