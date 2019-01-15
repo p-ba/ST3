@@ -6,11 +6,17 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
 		"LSP",
+		"nginx",
 		"Package Control",
+		"PackageResourceViewer",
 		"PHP Companion",
-		"PhpNamespace",
+		"PHP Constructors",
+		"PhpDoc",
+		"PHPSnippets",
+		"Symfony2 Snippets",
 		"Vuejs Complete Package"
 	]
 }
