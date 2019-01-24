@@ -8,5 +8,10 @@
 	"ignored_packages":
 	[
 	],
-	"theme": "Adaptive.sublime-theme"
+	"trim_trailing_white_space_on_save": true,
+	"theme": "Adaptive.sublime-theme",
+	"windows":
+	{
+		"font_size": 11
+	}
 }

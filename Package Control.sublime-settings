@@ -8,15 +8,20 @@
 		"AdvancedNewFile",
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
+		"HTMLBeautify",
 		"LSP",
 		"nginx",
 		"Package Control",
 		"PackageResourceViewer",
 		"PHP Companion",
 		"PHP Constructors",
+		"PHP-Twig",
 		"PhpDoc",
 		"PHPSnippets",
+		"PlatformSettings",
+		"SideBarEnhancements",
 		"Symfony2 Snippets",
+		"Twig",
 		"Vuejs Complete Package"
 	]
 }
