@@ -8,10 +8,16 @@
 	"ignored_packages":
 	[
 	],
-	"trim_trailing_white_space_on_save": true,
 	"theme": "Adaptive.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
 	"windows":
 	{
-		"font_size": 11
+		"font_size": 11,
+		"font_face": "SFMono Medium"
+	},
+	"linux":
+	{
+		"font_size": 10,
+		"font_face": "SF Mono Semibold"
 	}
 }
