@@ -8,16 +8,16 @@
 	"ignored_packages":
 	[
 	],
-	"theme": "Adaptive.sublime-theme",
+	"linux":
+	{
+		"font_face": "Source Code Pro Semibold",
+		"font_size": 10
+	},
+	"theme": "Agila Monokai.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"windows":
 	{
-		"font_size": 11,
-		"font_face": "Source Code Pro Semibold"
-	},
-	"linux":
-	{
-		"font_size": 10,
-		"font_face": "Source Code Pro Semibold"
+		"font_face": "Source Code Pro Semibold",
+		"font_size": 11
 	}
 }
