@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Agila Theme",
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
 		"HTMLBeautify",
@@ -22,6 +23,7 @@
 		"PlatformSettings",
 		"SideBarEnhancements",
 		"Symfony2 Snippets",
+		"Themes Menu Switcher",
 		"Twig",
 		"Vuejs Complete Package"
 	]

@@ -3,6 +3,8 @@
 	"log_server": true,
 	"log_stderr": true,
 	"log_payloads": true,*/
+	"show_references_in_quick_panel": true,
+	"resolve_completion_for_snippets": true,
 	"clients": {
 		"phpls": {
 			"command":
