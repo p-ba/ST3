@@ -19,5 +19,6 @@
 	{
 		"font_face": "Source Code Pro Semibold",
 		"font_size": 11
-	}
+	},
+    "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip", "node_modules/", "vendor/", "var/cache/"],
 }
