@@ -6,11 +6,14 @@
 	"show_references_in_quick_panel": true,
 	"resolve_completion_for_snippets": true,
 	"clients": {
+		"pyls": {
+			"enabled": true
+		},
 		"phpls": {
 			"command":
 			[
 				"php",
-				"~/.config/composer/vendor/felixfbecker/language-server/bin/php-language-server.php",
+				"~/.sublime/.php/vendor/felixfbecker/language-server/bin/php-language-server.php",
 				"--memory-limit=2048M",
 				"--tcp-server=localhost:5555"
 			],
@@ -20,16 +23,19 @@
 			"enabled": true,
 			"tcp_port": 5555
 		},
-		"psalm": {
+		"phan": {
 			"command":
 			[
 				"php",
-				"~/.config/composer/vendor/bin/psalm-language-server"
+				"~/.sublime/.php/vendor/bin/phan",
+				"--daemonize-tcp-host=127.0.0.1",
+				"--daemonize-tcp-port=5556"
 			],
 			"languageId": "php",
 			"scopes":["source.php", "embedding.php"],
 			"syntaxes":["Packages/PHP/PHP.sublime-syntax"],
-			"enabled": true
+			"enabled": true,
+			"tcp_port": 5556
 		}
 	}
 }
