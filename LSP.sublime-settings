@@ -7,7 +7,18 @@
 	"resolve_completion_for_snippets": true,
 	"clients": {
 		"pyls": {
-			"enabled": true
+			"enabled": true,
+			"command": ["~/.local/bin/pyls"],
+			"settings": {
+		    	"pyls": {
+		            "configurationSources": ["flake8"],
+		            "plugins": {
+		                "pycodestyle": {
+		                	"enabled": false
+		                }
+		            }
+		      	}
+		    }
 		},
 		"phpls": {
 			"command":
@@ -28,14 +39,12 @@
 			[
 				"php",
 				"~/.sublime/.php/vendor/bin/phan",
-				"--daemonize-tcp-host=127.0.0.1",
-				"--daemonize-tcp-port=5556"
+				"--language-server-on-stdin"
 			],
 			"languageId": "php",
 			"scopes":["source.php", "embedding.php"],
 			"syntaxes":["Packages/PHP/PHP.sublime-syntax"],
-			"enabled": true,
-			"tcp_port": 5556
+			"enabled": true
 		}
 	}
 }
