@@ -49,9 +49,9 @@
             	"intelephense": {
             		"files": {
             			"exclude": [
-            				".git",
-            				".idea",
-            				".vscode",
+            				"**/.git/**",
+            				"**/.idea/**",
+            				"**/.vscode/**",
             				"**/node_modules/**",
             				"**/bower_components/**",
             				"**/var/cache/**"
