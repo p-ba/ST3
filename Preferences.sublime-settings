@@ -1,21 +1,24 @@
 {
 	"binary_file_patterns":
 	[
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
 		"*.dds",
-		"*.ico",
 		"*.eot",
-		"*.pdf",
-		"*.swf",
+		"*.gif",
+		"*.ico",
 		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
 		"*.zip",
-		"node_modules/",
-		"var/cache/"
+		".idea",
+		".vscode",
+		"**/node_modules/**",
+		"**/bower_components/**",
+		"**/var/cache/**"
 	],
 	"color_scheme": "Solarized (light).sublime-color-scheme",
 	"font_options":

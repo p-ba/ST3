@@ -20,20 +20,6 @@
 		      	}
 		    }
 		},
-		"phpls": {
-			"command":
-			[
-				"php",
-				"~/.sublime/.php/vendor/felixfbecker/language-server/bin/php-language-server.php",
-				"--memory-limit=2048M",
-				"--tcp-server=localhost:5555"
-			],
-			"languageId": "php",
-			"scopes": ["source.php", "embedding.php"],
-			"syntaxes":["Packages/PHP/PHP.sublime-syntax"],
-			"enabled": true,
-			"tcp_port": 5555
-		},
 		"phan": {
 			"command":
 			[
@@ -45,6 +31,37 @@
 			"scopes":["source.php", "embedding.php"],
 			"syntaxes":["Packages/PHP/PHP.sublime-syntax"],
 			"enabled": false
-		}
+		},
+		"intelephense-ls": {
+            "enabled": true,
+            "command": [
+                "intelephense",
+                "--stdio",
+            ],
+            "scopes": ["source.php", "embedding.php"],
+            "syntaxes": ["Packages/PHP/PHP.sublime-syntax"],
+            "languageId": "php",
+            "initializationOptions": {
+                "storagePath": "/tmp/intelephense",
+                "globalStoragePath": "/tmp/intelephense"
+            },
+            "settings": {
+            	"intelephense": {
+            		"files": {
+            			"exclude": [
+            				".git",
+            				".idea",
+            				".vscode",
+            				"**/node_modules/**",
+            				"**/bower_components/**",
+            				"**/var/cache/**"
+            			]
+            		},
+            		"trace": {
+            			"server": "verbose"
+            		}
+            	}
+            }
+        }
 	}
 }

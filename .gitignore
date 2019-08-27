@@ -9,3 +9,4 @@ Package Control.ca-certs/
 Xdebug.breakpoints
 Xdebug.log
 .php/vendor/
+.node/node_modules/
