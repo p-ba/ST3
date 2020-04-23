@@ -1,4 +1,6 @@
-{ "minimum-stability": "dev", "require": {
-        "felixfbecker/language-server": "dev-master",
-                "phan/phan": "dev-master"
-    } }
+{
+	"minimum-stability": "dev",
+	"require": {
+		"phan/phan": "2.*"
+    }
+}
