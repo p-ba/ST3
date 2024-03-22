@@ -13,14 +13,14 @@
             {"key": "auto_complete_visible", "operand": false}
         ]
     },
-    {
-        "keys": ["ctrl+t"],
-        "command": "jump_back",
-    },
-    {
-        "keys": ["ctrl+]"],
-        "command": "goto_definition",
-    },
+    // {
+    //     "keys": ["ctrl+t"],
+    //     "command": "jump_back",
+    // },
+    // {
+    //     "keys": ["ctrl+]"],
+    //     "command": "goto_definition",
+    // },
     {
         "keys": ["ctrl+]"],
         "command": "lsp_symbol_definition",

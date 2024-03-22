@@ -1,3 +1,6 @@
 " A double quote character starts a comment.
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
+nnoremap gd :LspSymbolDefinition<CR>
+nnoremap gD :LspSymbolDeclaration<CR>
+nnoremap gr :LspSymbolReferences<CR>
