@@ -1,0 +1,3 @@
+" A double quote character starts a comment.
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
